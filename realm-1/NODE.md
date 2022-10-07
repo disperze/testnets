@@ -79,6 +79,23 @@ Enable service
 sudo systemctl enable gnotest.service
 ```
 
+## Open p2p port
+Allow p2p port (default: 26656)
+
+Example:
+```
+ufw allow 26656
+```
+
+You can change p2p port in `testdir/config/config.toml`  
+```toml
+##### peer to peer configuration options #####
+[p2p]
+
+# Address to listen for incoming connections
+laddr = "tcp://0.0.0.0:26656"
+```
+
 ## Run
 
 Finally start the service
