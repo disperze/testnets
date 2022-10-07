@@ -46,10 +46,18 @@ echo $PUBKEY
 
 :warning: Replace `VAL_NAME` with your validator name. 
 ```sh
-./build/gnokey maketx call val --pkgpath "gno.land/r/validators" --func CreateValidator --args "VAL_NAME" --args $PUBKEY --send 10000000ugnot  --gas-fee 1ugnot --gas-wanted 2000000 > createval.json
+./build/gnokey maketx call val --pkgpath "gno.land/r/validators" \
+    --func CreateValidator \
+    --args "VAL_NAME" \
+    --args $PUBKEY \
+    --send 10000000ugnot \
+    --gas-fee 1ugnot \
+    --gas-wanted 2000000 > createval.tx.json
+```
 
-./build/gnokey sign val --txpath createval.json --chainid "realm-1" --number 0 --sequence 0 > gentx-$(date +%s).json
-
+Sign gentx
+```sh
+./build/gnokey sign val --txpath createval.tx.json --chainid "realm-1" --number 0 --sequence 0 > gentx-$(date +%s).json
 ```
 
 ## Upload your genTx
