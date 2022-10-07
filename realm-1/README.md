@@ -3,7 +3,7 @@
 Decentralized testnet for GNOLand.
 
 - [Build binary](./BUILD.md)
-- [Run a node][./NODE.md]
+- [Run a node](./NODE.md)
 
 
 ## Minimum Requirements
