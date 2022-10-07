@@ -40,7 +40,7 @@ rm -rf testdir/data/*.wal
 
 Edit `testdir/config/config.toml` and replace:
 ```
-persistent_peers = "TBD"
+persistent_peers = "g190w8e50hgujrhz2wmeexdvxfk75qtq3q7948cw@65.109.48.19:26656"
 ```
 
 ## Service
