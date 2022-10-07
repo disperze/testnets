@@ -2,7 +2,8 @@
 
 ## Build
 
-Build binary from source code.
+You need [go +1.18](https://go.dev/dl/) installed.
+
 ```sh
 git clone https://github.com/disperze/gno.git
 cd gno
