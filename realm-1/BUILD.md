@@ -16,8 +16,8 @@ make
 ## Download from releases
 
 ```sh
-curl -LOJ https://github.com/disperze/testnets/releases/download/realm-1/gnoland_Linux_amd64.tar.gz
-tar -xf gnoland_Linux_amd64.tar.gz
+curl -LOJ https://github.com/disperze/testnets/releases/download/realm-1/gno_build_linux_amd64.tar.gz
+tar -xf gno_build_linux_amd64.tar.gz
 
 ```
 
