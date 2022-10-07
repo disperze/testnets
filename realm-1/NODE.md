@@ -6,7 +6,7 @@ You need the gno repo to start a node.
 ```sh
 git clone https://github.com/disperze/gno.git
 cd gno
-git checkout b273a1f4739489ba5ee7bcbab5fdd5bb410e7695
+git checkout 22267102898c8f02c9b68fcd27139699bbcff635
 ```
 
 :warning: **Keep the gno repo as your working directory to avoid issues.**
