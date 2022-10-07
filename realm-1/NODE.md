@@ -27,7 +27,7 @@ curl -s  https://raw.githubusercontent.com/disperze/testnets/master/realm-1/gene
 Verify genesis
 ```sh
 sha256sum testdir/config/genesis.json
-#
+# TBD
 ```
 
 Reset data
@@ -40,7 +40,7 @@ rm -rf testdir/data/*.wal
 
 Edit `testdir/config/config.toml` and replace:
 ```
-persistent_peers = ""
+persistent_peers = "TBD"
 ```
 
 ## Service
