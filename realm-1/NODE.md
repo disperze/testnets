@@ -13,7 +13,7 @@ git checkout b273a1f4739489ba5ee7bcbab5fdd5bb410e7695
 
 ## Init config
 
-You need the gnoland binary, see [build section](./BUILD.md)
+You need the gnoland binary, see [build section](./BUILD.md).
 ```
 ./build/gnoland --chainid realm-1 --skip-start
 ```
@@ -50,7 +50,7 @@ Linux service
 sudo nano /etc/systemd/system/gnotest.service
 ```
 
-Set content, but replace user (default: `root`) or change gno directory (defaul: `/root/gno`)
+Set content, but replace user (default: `root`) or change gno directory (defaul: `/root/gno`).
 ```
 [Unit]
 Description=GNOTest Node
