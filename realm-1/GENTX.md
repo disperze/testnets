@@ -35,12 +35,19 @@ Restore existing wallet
 
 ```
 
+> You can take note of your Node ID to share with other nodes, you can find it at the end of log.    
+    ```
+    .level 1 .msg P2P Node ID [ID g1sr75dcex0w3579767w2v07p8uy6lfan779ruc9 file testdir/config/node_key.json [module p2p]]  
+    ```
+
 Get generated pubkey
 ```sh
 PUBKEY=$(cat testdir/config/priv_validator_key.json | jq -r '.pub_key.value')
 echo $PUBKEY
 # wcnqY2gw0ifaybJqBKhJO8LkQMkqelJ5XWANHI/PER4=
 ```
+
+
 
 ## Create gentx
 
