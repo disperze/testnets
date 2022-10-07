@@ -1,5 +1,10 @@
 # Gnoland Node
 
+## Minimum Requirements
+
+- 1GB RAM / 10GB SSD
+- 1CPU
+
 ## GNO Code
 
 You need the gno repo to start a node.

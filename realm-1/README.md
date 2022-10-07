@@ -1,12 +1,7 @@
 # GNO Tesnet (realm-1)
 
-Decentralized testnet for GNOLand.
+Decentralized testnet for [GNOLand](https://gno.land).
 
 - [Build binary](./BUILD.md)
 - [Run a node](./NODE.md)
 
-
-## Minimum Requirements
-
-- 1GB RAM / 10GB SSD
-- 1CPU
