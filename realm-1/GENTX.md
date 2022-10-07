@@ -44,7 +44,7 @@ echo $PUBKEY
 
 ## Create gentx
 
-Replace `VAL_NAME` with your validator name. 
+:warning: Replace `VAL_NAME` with your validator name. 
 ```sh
 ./build/gnokey maketx call val --pkgpath "gno.land/r/validators" --func CreateValidator --args "VAL_NAME" --args $PUBKEY --send 10000000ugnot  --gas-fee 1ugnot --gas-wanted 2000000 > createval.json
 
