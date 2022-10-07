@@ -18,4 +18,13 @@ make
 ```sh
 curl -LOJ https://github.com/disperze/testnets/releases/download/realm-1/gnoland_Linux_amd64.tar.gz
 tar -xf gnoland_Linux_amd64.tar.gz
+
+```
+
+Files
+```
+|-build/
+|     |- gnokey
+|     |- gnoland
+|
 ```
