@@ -72,3 +72,11 @@ Sign gentx
 Fork repo https://github.com/disperze/testnets and upload previous `gentx-*.json` to  
 [realm-1/gentxs](https://github.com/disperze/testnets/tree/master/realm-1/gentxs) directory, and open a [new pull request](https://github.com/disperze/testnets/compare) 
 
+## Share your peer id
+
+Format: `<NODE_ID>@<IP>:<PORT>` (default port: 26656)
+
+Example:
+```
+g1sr75dcex0w3579767w2v07p8uy6lfan779ruc9@153.81.24.5:26656
+```
