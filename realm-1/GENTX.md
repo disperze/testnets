@@ -1,4 +1,4 @@
-# Gentx
+# Validator Gentx
 
 ## Build
 
