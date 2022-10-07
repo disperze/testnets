@@ -1,13 +1,15 @@
 # Gnoland Node
 
-## Clone Code
+## GNO Code
 
-You need the gno repo to start a node
+You need the gno repo to start a node.
 ```sh
 git clone https://github.com/disperze/gno.git
 cd gno
 git checkout b273a1f4739489ba5ee7bcbab5fdd5bb410e7695
 ```
+
+:warning: **Keep the gno repo as your working directory to avoid issues.**
 
 ## Init config
 
