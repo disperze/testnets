@@ -55,5 +55,5 @@ echo $PUBKEY
 ## Upload your genTx
 
 Fork repo https://github.com/disperze/testnets and upload previous `gentx-*.json` to  
-[gentxs/](https://github.com/disperze/testnets/tree/master/realm-1/gentxs) directory
+[realm-1/gentxs](https://github.com/disperze/testnets/tree/master/realm-1/gentxs) directory, and open a [new pull request](https://github.com/disperze/testnets/compare) 
 
