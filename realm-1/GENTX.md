@@ -54,6 +54,6 @@ echo $PUBKEY
 
 ## Upload your genTx
 
-Fork repo https://github.com/disperze/testnets and upload previous `gentx-*.json` to folder 
-`realm-1/gentxs/`
+Fork repo https://github.com/disperze/testnets and upload previous `gentx-*.json` to  
+[gentxs/](https://github.com/disperze/testnets/tree/master/realm-1/gentxs) directory
 
