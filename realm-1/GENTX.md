@@ -53,9 +53,10 @@ echo $PUBKEY
 
 :warning: Replace `VAL_NAME` with your validator name. 
 ```sh
+VALIDATOR="VAL_NAME"
 ./build/gnokey maketx call val --pkgpath "gno.land/r/validators" \
     --func CreateValidator \
-    --args "VAL_NAME" \
+    --args $VALIDATOR \
     --args $PUBKEY \
     --send 10000000ugnot \
     --gas-fee 1ugnot \
