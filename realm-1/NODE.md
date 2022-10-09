@@ -32,7 +32,7 @@ curl -s  https://raw.githubusercontent.com/disperze/testnets/master/realm-1/gene
 Verify genesis
 ```sh
 sha256sum testdir/config/genesis.json
-# TBD
+# 3317ef086c3f6cead4d74e0453a63ae308aa11061088fe7a6db3fdd5c92f5f7a  testdir/config/genesis.json
 ```
 
 Reset data
