@@ -102,3 +102,58 @@ Finally start the service
 ```
 systemctl start gnotest
 ```
+
+Wait until node is synchronized (catching_up: false)
+```sh
+curl -s localhost:26657/status | jq '.result.sync_info.catching_up'
+```
+
+## Create validator
+
+Get your pubkey
+```sh
+PUBKEY=$(cat testdir/config/priv_validator_key.json | jq -r '.pub_key.value')
+echo $PUBKEY
+# wcnqY2gw0ifaybJqBKhJO8LkQMkqelJ5XWANHI/PER4=
+```
+
+Create a new validator Tx.   
+:warning: Replace `VAL_NAME` with your validator name. 
+```sh
+VALIDATOR="VAL_NAME"
+./build/gnokey maketx call val --pkgpath "gno.land/r/validators" \
+    --func CreateValidator \
+    --args $VALIDATOR \
+    --args $PUBKEY \
+    --send 10000000ugnot \
+    --gas-fee 1ugnot \
+    --gas-wanted 2000000 > createval.unsigned.json
+```
+
+Sign and broadcast
+```sh
+# Get account and sequence number (replace your address)
+./build/gnokey query "auth/accounts/<address>"
+
+# Replace ACCOUNT, SEQUENCE
+./build/gnokey sign val --txpath createval.tx.json --chainid "realm-1" --number <ACCOUNT> --sequence <SEQUENCE> > createval.signed.json
+./build/gnokey broadcast createval.signed.json
+```
+
+**Verify validator**
+
+Check if your validator name is on the output.
+```sh
+./build/gnokey query "vm/qrender" --data "gno.land/r/validators
+"
+
+```
+
+**Signing blocks**
+
+Check if your validator node is signing blocks.
+
+```sh
+curl -s http://localhost:26657/block | grep $(curl -s http://localhost:26657/status | jq -r '.result.validator_info.address')
+
+```
