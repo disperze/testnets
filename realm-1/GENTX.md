@@ -1,5 +1,8 @@
 # Validator Gentx
 
+:warning: **Gentx ended** :warning:
+---
+
 ## Build
 
 You need [go +1.18](https://go.dev/dl/) installed.
