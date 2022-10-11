@@ -1,0 +1,29 @@
+{
+    "msg": [
+        {
+            "@type": "/vm.m_call",
+            "caller": "g13fntlnpdc06ulepvexth2q5782u2w69h9hauq6",
+            "send": "10000000ugnot",
+            "pkg_path": "gno.land/r/validators",
+            "func": "CreateValidator",
+            "args": [
+                "blackcatrick",
+                "os8oRP3xcOR05OKAV2x68aml8R38lxeJ/BwAnJj3ySE="
+            ]
+        }
+    ],
+    "fee": {
+        "gas_wanted": "2000000",
+        "gas_fee": "1ugnot"
+    },
+    "signatures": [
+        {
+            "pub_key": {
+                "@type": "/tm.PubKeySecp256k1",
+                "value": "A5/zYaOxd1EhCxJs2Vbk3KFaOind8eCIlLPNraJGHK8k"
+            },
+            "signature": "LOURvIhcMfW4de92g3+jWRvwfWU9Wn2s6cYfodjCFnU4yZLQJEGoWqiZpLyMJP2VE5pai22stC5xaQsz4fvqMw=="
+        }
+    ],
+    "memo": ""
+}
