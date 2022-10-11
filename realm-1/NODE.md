@@ -138,7 +138,7 @@ VALIDATOR="VAL_NAME"
     --func CreateValidator \
     --args $VALIDATOR \
     --args $PUBKEY \
-    --send 10000000ugnot \
+    --send 1000000ugnot \
     --gas-fee 1ugnot \
     --gas-wanted 2000000 > createval.unsigned.json
 ```
