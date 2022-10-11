@@ -78,6 +78,19 @@ Enable service
 ```
 sudo systemctl enable gnotest.service
 ```
+<details>
+  <summary>:zap: Snaphost (Optional)</summary>
+
+  Date: `Tue 11 Oct 2022 04:00:00 AM UTC`    
+  Size: 27M    
+    
+  ```sh
+  curl -LOJ http://137.184.58.183:8000/20221011_0400.tar.gz?download=true
+  tar -xf 20221011_0400.tar.gz -C testdir
+
+  ```
+</details>
+
 
 ## Open p2p port
 Allow p2p port (default: 26656)
