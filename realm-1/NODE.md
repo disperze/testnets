@@ -24,6 +24,7 @@ You need the gnoland binary, see [build section](./BUILD.md).
 ```
 
 ## Download genesis
+> Genesis Time: `2022-10-10T00:00:00Z`
 
 ```sh
 curl -s  https://raw.githubusercontent.com/disperze/testnets/master/realm-1/genesis.json > testdir/config/genesis.json
