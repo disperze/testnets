@@ -5,6 +5,9 @@ Decentralized testnet for [GNOLand](https://gno.land).
 - [Build binary](./BUILD.md)
 - [Run a node](./NODE.md)
 
-## RPC
+## Timeline
 
-http://137.184.58.183:26657/
+Start: `2022-10-10 00:00 UTC`    
+End: `2022-10-17 00:00 UTC`
+
+Blocks: `93625`
